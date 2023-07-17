@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://luisangelsalcedo.github.io" target="_blank">
+    <a href="https://luisangelsalcedo.github.io/devc_my-team-page" target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/luisangelsalcedo">
+    <a href="https://github.com/luisangelsalcedo/devc_my-team-page">
       Solution
     </a>
     <span> | </span>
@@ -22,7 +22,7 @@
 
 ## Overview
 
-![screenshot](./assets/img)
+![screenshot](./assets/img/preview.jpg)
 
 ## Built With
 

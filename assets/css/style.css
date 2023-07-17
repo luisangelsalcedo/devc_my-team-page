@@ -1,6 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: black; }
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.container {
+  width: 100%;
+  max-width: 375px;
+  padding: 0 0.75rem;
+  position: relative;
+  margin: auto; }
+  @media (min-width: 520px) {
+    .container {
+      max-width: 520px; } }
+  @media (min-width: 772px) {
+    .container {
+      max-width: 772px; } }
+  @media (min-width: 980px) {
+    .container {
+      max-width: 980px; } }
+
+.title {
+  padding-top: 4.4375rem; }
+  .title h1 {
+    font-family: "PT Serif", serif;
+    font-size: 2.25rem;
+    font-weight: bold;
+    padding-bottom: 2.375rem;
+    letter-spacing: -1.62px; }
+  .title .right {
+    width: 333px;
+    margin-bottom: 4.5rem; }
+    @media (min-width: 772px) {
+      .title .right {
+        width: 439px; } }
+    .title .right h2 {
+      font-size: 1.125rem;
+      font-weight: bold;
+      padding-bottom: 0.625rem;
+      text-transform: uppercase; }
+    .title .right p {
+      font-size: 0.875rem; }
+      @media (min-width: 772px) {
+        .title .right p {
+          font-size: 1.125rem; } }
+  @media (min-width: 772px) {
+    .title .container {
+      display: flex;
+      justify-content: space-between; } }
+
+.team > .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 3.125rem;
+  row-gap: 0.9375rem;
+  padding-right: 1.875rem;
+  margin-bottom: 6.25rem; }
+  @media (min-width: 980px) {
+    .team > .container {
+      justify-content: flex-start;
+      column-gap: 6.25rem;
+      row-gap: 1.875rem; } }
+.team-item {
+  width: 138.719px;
+  position: relative; }
+  @media (min-width: 520px) {
+    .team-item {
+      width: 210px; } }
+  @media (min-width: 980px) {
+    .team-item {
+      width: 238px; } }
+  .team-item:nth-child(2n+1) {
+    margin-bottom: 3.125rem; }
+    @media (min-width: 772px) {
+      .team-item:nth-child(2n+1) {
+        margin-bottom: 6.25rem; } }
+  .team-item:nth-child(2n) {
+    margin-top: 3.125rem; }
+    @media (min-width: 772px) {
+      .team-item:nth-child(2n) {
+        margin-top: 6.25rem; } }
+  @media (min-width: 772px) {
+    .team-item:nth-child(2n+4) {
+      margin-top: 0;
+      margin-bottom: 6.25rem; }
+    .team-item:nth-child(2n+5) {
+      margin-top: 6.25rem;
+      margin-bottom: 0; } }
+  .team-item-name {
+    font-size: 0.875rem;
+    font-weight: 600; }
+    @media (min-width: 520px) {
+      .team-item-name {
+        font-size: 1.125rem; } }
+  .team-item-charge {
+    width: 100%;
+    font-size: 0.625rem;
+    position: absolute;
+    left: 100%;
+    bottom: 100%;
+    transform: rotate(90deg);
+    transform-origin: bottom left;
+    text-transform: uppercase;
+    margin-left: 0.375rem; }
+    @media (min-width: 520px) {
+      .team-item-charge {
+        font-size: 0.75rem; } }
+
+img {
+  width: 100%; }
+
+footer {
+  color: #A9A9A9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  text-align: center;
+  padding: 1.5rem 0; }
+  footer a {
+    color: inherit;
+    font-weight: bold;
+    font-size: inherit; }
 
 /*# sourceMappingURL=style.css.map */
